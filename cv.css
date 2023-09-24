@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(./imgs/boss.avif); /* Add the path to your background image */
+    background-size: cover;
+}
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adding an opaque white background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+header p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h3 {
+    color: #333;
+}
+.section {
+    margin-bottom:20px;
+}
+.section h2 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 24px;
+}
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.skills-list {
+font-family: 'Arial', sans-serif;
+font-size: 16px;
+list-style: none;
+padding-left: 0;
+}
+.skills-list li {
+margin-bottom: 10px;
+font-weight: bold;
+}
